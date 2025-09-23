@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 994 250">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-6 {
+        isolation: isolate;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-10 {
+        mix-blend-mode: multiply;
+        opacity: .3;
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-4 {
+        fill: #00678c;
+      }
+
+      .cls-13 {
+        mask: url(#mask-1);
+      }
+
+      .cls-14 {
+        mask: url(#mask);
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath-5);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="994" height="250"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-2" width="994" height="250"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-2" width="994" height="250"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-2" x="-7" y="-9" width="514" height="268"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0" y1="250.03" x2="1" y2="250.03" gradientTransform="translate(162.3 82161.71) scale(328.11 -328.11)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="-7" y="-9" width="514" height="268" maskUnits="userSpaceOnUse">
+      <rect class="cls-1" x="-7" y="-9" width="514" height="268"/>
+    </mask>
+    <clipPath id="clippath-4">
+      <rect class="cls-2" x="-7" y="-9" width="514" height="268"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-2" x="722" y="-9" width="279" height="268"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" y1="250.06" y2="250.06" gradientTransform="translate(907.07 -43816.37) rotate(-180) scale(175.72 -175.72)" xlink:href="#linear-gradient"/>
+    <mask id="mask-1" x="722" y="-9" width="279" height="268" maskUnits="userSpaceOnUse">
+      <rect class="cls-3" x="722" y="-9" width="279" height="268"/>
+    </mask>
+    <clipPath id="clippath-6">
+      <rect class="cls-2" x="722" y="-9" width="279" height="268"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Layer_1-2" data-name="Layer 1">
+        <g class="cls-11">
+          <g class="cls-8">
+            <g class="cls-5">
+              <g class="cls-10">
+                <g class="cls-12">
+                  <g class="cls-14">
+                    <g class="cls-9">
+                      <rect class="cls-4" width="506" height="250"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g class="cls-10">
+                <g class="cls-15">
+                  <g class="cls-13">
+                    <g class="cls-7">
+                      <rect class="cls-4" x="723" width="271" height="250"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

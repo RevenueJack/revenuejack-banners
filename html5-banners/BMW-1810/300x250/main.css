@@ -1,0 +1,173 @@
+.banner {
+  background: #fff;
+  width: 300px;
+  height: 250px;
+}
+
+/* == CAR / BACKGROUND ======================================== */
+.scene {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.scene .cars,
+.scene .x,
+.scene .background {
+  top: -45px;
+}
+
+.scene .cars {
+  position: absolute;
+  background: url(cars.png) no-repeat top left;
+  background-size: cover;
+}
+
+.scene .x {
+  position: absolute;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iMjUwIiB2aWV3Qm94PSIwIDAgNTAwIDI1MCI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPkFzc2V0IDI8L3RpdGxlPjxwYXRoIGNsYXNzPSJhIiBkPSJNMjAxLjEzMywyNTBoOTEuNTQ4TDI0Ny43NywxNzkuNDY0Wk0wLDBWMjUwSDEyOC42bDgzLjUtMTIyLjFMMTI5LjEsMFpNMjA2LjIsMGw0Ni40NCw3Mi4wNzZMMzAwLjcwNywwWm0xNjQuNDEsMEwyODcuOSwxMjIuNDIxLDM3Mi4yMzksMjUwSDUwMFYwWiIvPjwvc3ZnPg==);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 150%;
+  left: -25%;
+}
+
+.scene .background {
+  position: absolute;
+  background: url(background.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.scene .white {
+  height: 90px;
+  bottom: 0;
+  background: white;
+}
+
+/* == COPY  ======================================== */
+.copy {
+  position: absolute;
+  width: 100%;
+  top: 163px;
+  padding: 0 14px;
+  /* text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); */
+  color: black;
+}
+
+.heading {
+  position: relative;
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: 0;
+  letter-spacing: -1px;
+}
+
+.frame4 .heading {
+  font-size: 19px;
+}
+
+.dealer{
+  font-size: 15px;
+}
+/* == Logo =========================================== */
+.logo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 62px;
+  height: 70px;
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+
+.cta {
+  background: #1c69d4;
+  width: 120px;
+  height: 22px;
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px 0 0 0;
+}
+
+.legals {
+  position: absolute;
+  left: 14px;
+  bottom: 2px;
+  color: black;
+  font: 8px/8px Arial, Helvetica, sans-serif;
+}
+
+/* TERMS ==================================================== */
+
+.terms-button,
+.terms .terms-close {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  z-index: 3000;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDEyIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDojZWVlO30uYntmaWxsOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5Bc3NldCA2PC90aXRsZT48cmVjdCBjbGFzcz0iYSIgeD0iMTIiIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIvPjxyZWN0IHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIvPjxwYXRoIGQ9Ik0xNy40NjEsOS4wMSwxNy41LDYuODYsMTUuNjUzLDcuOTgybC0uNTE3LS45TDE3LDYuMDIyLDE1LjEzNiw0Ljk3OWwuNTE3LS45MTFMMTcuNSw1LjE5MWwtLjA0My0yLjE1aDEuMDc4bC0uMDUxLDIuMTVMMjAuMzQsNC4wNjhsLjUyNC45MTFMMTksNi4wMjJsMS44NjUsMS4wNjQtLjUyNC45TDE4LjQ4OCw2Ljg2bC4wNTEsMi4xNVoiLz48cGF0aCBjbGFzcz0iYiIgZD0iTTUuMDMyLDYuMDA2LDMuMDg1LDQuMDU5bC45NjgtLjk2OEw2LDUuMDM4LDcuOTgyLDMuMDU2bC45NjguOTY4TDYuOTY4LDYuMDA2LDguOSw3Ljk0MWwtLjk2OC45NjhMNiw2Ljk3Myw0LjAxOCw4Ljk0NCwzLjA1LDcuOTc2WiIvPjwvc3ZnPg==);
+  background-size: cover;
+}
+
+.terms-button {
+  bottom: 0px;
+  left: 0px;
+  background-position: top right;
+  display: none;
+}
+
+.terms .terms-close {
+  left: 0;
+  top: 0;
+  z-index: 4000;
+}
+
+.terms {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3000;
+
+  display: none;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.terms .hitarea {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.terms .panel {
+  position: absolute;
+  width: 100%;
+  max-height: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+
+  background: black;
+  color: white;
+
+  box-sizing: border-box;
+
+  overflow-y: auto;
+}
+
+.terms .panel p {
+  font-size: 10px;
+  line-height: 1.25;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 8px;
+}

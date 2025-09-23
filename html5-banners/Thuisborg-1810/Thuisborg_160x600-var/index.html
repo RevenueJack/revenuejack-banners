@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="ad.size" content="width=160,height=600">
+	<title>Untitled</title>
+    <script type="text/javascript">
+        function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
+        function(m, key, value) {
+        vars[key] = value;
+        });
+        return vars;
+        }
+        var clickUrl = [];
+        var urlVars = getUrlVars();
+        for (var key in urlVars) {
+        var index = key.split("clickUrl");
+        if (typeof index[1] !== "undefined") {
+        clickUrl[index[1]] = decodeURIComponent(urlVars[key]);
+        }
+        }
+    </script>
+<!--Adobe Edge Runtime-->
+    <script type="text/javascript" charset="utf-8" src="edge_includes/edge.6.0.0.min.js"></script>
+    <style>
+        .edgeLoad-EDGE-19802094 { visibility:hidden; }
+    </style>
+<script>
+   AdobeEdge.loadComposition('Thuisborg_160x600', 'EDGE-19802094', {
+    scaleToFit: "none",
+    centerStage: "none",
+    minW: "0px",
+    maxW: "undefined",
+    width: "160px",
+    height: "600px"
+}, {"dom":{}}, {"dom":{}});
+</script>
+<!--Adobe Edge Runtime End-->
+
+</head>
+<body style="margin:0;padding:0;">
+    <a onClick="window.open(clickUrl[1], '_blank')">
+    	<div id="Stage" class="EDGE-19802094" style="cursor: pointer;">
+    	</div>
+    </a>
+</body>
+</html>

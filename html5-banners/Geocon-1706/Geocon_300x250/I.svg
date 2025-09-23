@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="300px" height="250px" viewBox="0 0 300 250" enable-background="new 0 0 300 250" xml:space="preserve">
+<rect fill="#B3DDD2" width="300" height="250"/>
+<polygon fill="#BA9663" points="177.35,195.732 167.474,195.732 167.474,62.7 139.65,62.7 132.546,62.7 122.65,62.7 122.65,69.947 
+	132.546,69.947 132.546,195.732 122.65,195.732 122.65,202.979 132.546,202.979 132.546,203 139.814,203 139.814,69.916 
+	160.206,69.916 160.206,195.785 153.543,195.785 153.543,76.129 146.275,76.129 146.275,203 167.474,203 167.474,202.979 
+	177.35,202.979 "/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="300" height="250"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<rect clip-path="url(#SVGID_2_)" fill="none" stroke="#000000" stroke-width="0.25" width="300" height="250"/>
+</g>
+</svg>

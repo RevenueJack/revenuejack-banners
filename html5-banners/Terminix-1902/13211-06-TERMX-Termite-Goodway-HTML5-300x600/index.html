@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>300x600</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+ 	<meta name="ad.size" content="width=300,height=600">
+
+ 	<script type='text/javascript'>
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                results = regex.exec(location.search);
+            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+        var clickTag = getParameterByName("clickTAG");
+    </script>
+
+	<script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.18.0_499ba64a23378545748ff12d372e59e9_min.js"></script>
+	<script src="banner.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="banner.css">
+   	<style type="text/css"> .hide { opacity:0; overflow:hidden; } </style>
+</head>
+
+<body>
+
+	<div class="preload hide">
+		<img src="spritesheet.png" />
+	</div>
+
+    <div id="container" class="hide group">
+        <div id="content">
+
+        	<div class="f1 group">
+        		<div class="retina sprite sprite-txt1a"></div>
+				<div class="retina sprite sprite-txt1b"></div>
+				<div class="retina sprite sprite-txt1c"></div>
+				<div class="retina sprite sprite-txt1d"></div>
+				<div class="chairGroup group">
+					<div class="retina sprite sprite-chairShadow shadow"></div>
+					<div class="retina sprite sprite-chair chair"></div>
+				</div>
+        	</div>
+
+        	<div class="f2 group">
+        		<div class="retina sprite sprite-txt2a"></div>
+				<div class="retina sprite sprite-txt2b"></div>
+				<div class="retina sprite sprite-txt2c"></div>
+				<div class="retina sprite sprite-txt2d"></div>
+				<div class="retina sprite sprite-tea tea">
+					<div class="sprite sprite-teaTrail teaTrail"></div>
+					<div class="sprite sprite-teaDrip teaDrip"></div>
+					<div class="sprite sprite-teaDrip teaDrip2"></div>
+				</div>				
+			</div>
+
+			<div class="retina sprite sprite-footer"></div>
+			
+			<div class="f3 group">				
+				<div class="txt3a group">
+					<div class="retina sprite sprite-txt3a"></div>
+				</div>
+				<div class="txt3b group">
+					<div class="retina sprite sprite-txt3b"></div>
+				</div>
+				<div class="txt3c group">
+					<div class="retina sprite sprite-txt3c"></div>
+				</div>
+					
+				<div class="cta">
+					<div class="retina sprite sprite-ctaTxt"></div>
+					<div class="sprite sprite-sheen"></div>
+				</div>
+
+				<div class="retina sprite sprite-sentricon"></div>
+			</div>
+				
+			<div id="exitBtn" class="group"></div>
+			
+		</div>
+	</div>
+
+	<script>
+		// var clickTag = "http://trustterminix.com/";
+		window.addEventListener("load", init);
+	</script>
+	
+  </body>
+</html>

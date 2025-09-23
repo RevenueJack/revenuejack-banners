@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+body, body * {
+	vertical-align: baseline;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	background-repeat:no-repeat;
+	color:#000;
+}
+
+img, div {
+	position: absolute;
+}
+
+#container {
+	margin: auto;
+	overflow:hidden;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border:1px solid #000;
+	cursor:pointer;
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+    background: radial-gradient(#2f9940 0, #237330 84%, #14411b 120%);
+}
+
+.group {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:50px;
+}
+
+#exitBtn {
+	visibility:visible;
+	background-color: #000;
+	opacity:0;
+}
+
+
+/* Spritesheet from https://draeton.github.io/stitches/ */
+
+.sprite {
+	background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.sprite-ctaTxt {
+    width: 146px;
+    height: 18px;
+    background-position: -2px -2px;
+}
+
+.sprite-footer {
+    width: 600px;
+    height: 100px;
+    background-position: -152px -2px;
+}
+
+.sprite-sentricon {
+    width: 600px;
+    height: 100px;
+    background-position: -2px -106px;
+}
+
+.sprite-sheen {
+    width: 152px;
+    height: 56px;
+    background-position: -756px -2px;
+}
+
+.sprite-txt1a {
+    width: 600px;
+    height: 100px;
+    background-position: -2px -210px;
+}
+
+.sprite-txt1b {
+    width: 600px;
+    height: 100px;
+    background-position: -2px -314px;
+}
+
+.sprite-txt1c {
+    width: 600px;
+    height: 100px;
+    background-position: -2px -418px;
+}
+
+.sprite-txt1d {
+    width: 600px;
+    height: 100px;
+    background-position: -2px -522px;
+}
+
+.sprite-txt1e {
+    width: 600px;
+    height: 100px;
+    background-position: -2px -626px;
+}
+
+.sprite-txt2a {
+    width: 600px;
+    height: 100px;
+    background-position: -2px -730px;
+}
+
+.sprite-txt2b {
+    width: 600px;
+    height: 100px;
+    background-position: -2px -834px;
+}
+
+.sprite-txt2c {
+    width: 600px;
+    height: 100px;
+    background-position: -912px -2px;
+}
+
+.sprite-txt2d {
+    width: 600px;
+    height: 100px;
+    background-position: -606px -106px;
+}
+
+.sprite-txt3a {
+    width: 600px;
+    height: 100px;
+    background-position: -606px -210px;
+}
+
+.sprite-txt3b {
+    width: 600px;
+    height: 100px;
+    background-position: -606px -314px;
+}
+
+.sprite-txt3c {
+    width: 600px;
+    height: 100px;
+    background-position: -606px -418px;
+}

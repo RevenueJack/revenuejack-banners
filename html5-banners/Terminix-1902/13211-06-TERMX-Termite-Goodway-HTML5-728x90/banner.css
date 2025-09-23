@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+body, body * {
+	vertical-align: baseline;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	background-repeat:no-repeat;
+	color:#000;
+}
+
+img, div {
+	position: absolute;
+}
+
+#container {
+	margin: auto;
+	overflow:hidden;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border:1px solid #000;
+	cursor:pointer;
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+    background: radial-gradient(#2f9940 0, #237330 60%, #14411b 99%);
+}
+
+.group {
+	left:0px;
+	top:0px;
+	width:728px;
+	height:90px;
+}
+
+#exitBtn {
+	visibility:visible;
+	background-color: #000;
+	opacity:0;
+}
+
+
+/* Spritesheet from https://draeton.github.io/stitches/ */
+
+.sprite {
+	background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.sprite-chair {
+    width: 288px;
+    height: 420px;
+    background-position: -2px -2px;
+}
+
+.sprite-chairShadow {
+    width: 268px;
+    height: 90px;
+    background-position: -294px -2px;
+}
+
+.sprite-ctaTxt {
+    width: 342px;
+    height: 42px;
+    background-position: -566px -2px;
+}
+
+.sprite-footer {
+    width: 1456px;
+    height: 180px;
+    background-position: -566px -48px;
+}
+
+.sprite-sentricon {
+    width: 1456px;
+    height: 180px;
+    background-position: -294px -232px;
+}
+
+.sprite-sheen {
+    width: 152px;
+    height: 56px;
+    background-position: -1754px -232px;
+}
+
+.sprite-tea {
+    width: 300px;
+    height: 600px;
+    background-position: -1754px -292px;
+}
+
+.sprite-teaDrip {
+    width: 600px;
+    height: 500px;
+    background-position: -294px -416px;
+}
+
+.sprite-teaTrail {
+    width: 600px;
+    height: 500px;
+    background-position: -898px -416px;
+}
+
+.sprite-txt1a {
+    width: 1456px;
+    height: 180px;
+    background-position: -2px -920px;
+}
+
+.sprite-txt1b {
+    width: 1456px;
+    height: 180px;
+    background-position: -2px -1104px;
+}
+
+.sprite-txt1c {
+    width: 1456px;
+    height: 180px;
+    background-position: -2px -1288px;
+}
+
+.sprite-txt1d {
+    width: 1456px;
+    height: 180px;
+    background-position: -2px -1472px;
+}
+
+.sprite-txt1e {
+    width: 1456px;
+    height: 180px;
+    background-position: -2px -1656px;
+}
+
+.sprite-txt2a {
+    width: 1456px;
+    height: 180px;
+    background-position: -2px -1840px;
+}
+
+.sprite-txt2b {
+    width: 1456px;
+    height: 180px;
+    background-position: -2026px -2px;
+}
+
+.sprite-txt2c {
+    width: 1456px;
+    height: 180px;
+    background-position: -2058px -186px;
+}
+
+.sprite-txt2d {
+    width: 1456px;
+    height: 180px;
+    background-position: -2058px -370px;
+}
+
+.sprite-txt3a {
+    width: 1456px;
+    height: 180px;
+    background-position: -2058px -554px;
+}
+
+.sprite-txt3b {
+    width: 1456px;
+    height: 180px;
+    background-position: -2058px -738px;
+}
+
+.sprite-txt3c {
+    width: 1456px;
+    height: 180px;
+    background-position: -1462px -922px;
+}
