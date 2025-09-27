@@ -75,9 +75,7 @@ init = function() { //called from index.html, on pageload
 }
 
 
-function click(e) {
-	window.open(window.clickTag);
-}
+function click(e) {}
 
 
 function over(e) {
