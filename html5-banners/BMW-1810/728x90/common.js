@@ -18,7 +18,7 @@ function addListeners() {
 }
 
 function onClickThrough() {
-  window.open(window.clickTag);
+  
   // Enabler.exit('Backgrond Clickthrough');
   console.log(">> Clickthrough");
 }
