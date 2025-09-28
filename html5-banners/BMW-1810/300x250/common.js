@@ -196,13 +196,13 @@ function getAdSizeMeta() {
   var content;
   var metaTags = document.getElementsByTagName("meta");
   ArrayFrom(metaTags).map(function(meta) {
-    if (meta.name == "ad.size") {
+    if (meta.name == "rj.creative") {
       content = meta.content.split(",");
     }
   });
   var size = {
-    width: parseInt(content[0].substring(6)),
-    height: parseInt(content[1].substring(7))
+    width: 300,
+    height: 250
   };
   return size;
 }
@@ -212,8 +212,8 @@ function setBannerSize() {
   // check banner exists.
   if (!window.hasOwnProperty("banner")) window.banner = {};
 
-  banner.width = getAdSizeMeta().width;
-  banner.height = getAdSizeMeta().height;
+  banner.width = 300;
+  banner.height = 250;
   $(".banner").style.width = banner.width + "px";
   $(".banner").style.height = banner.height + "px";
 
